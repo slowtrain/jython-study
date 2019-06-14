@@ -2,6 +2,7 @@
 import study.study01
 import study.study02
 import study.study03
+import study.study04
 
 
 # lesson = study.study01.Lesson()
@@ -10,6 +11,9 @@ import study.study03
 # lesson = study.study02.Lession()
 # lesson.loop()
 
-lesson = study.study03.Lesson()
+#lesson = study.study03.Lesson()
 #lesson.input()
-lesson.calcurate()
+#lesson.calcurate()
+
+lesson = study.study04.Lesson()
+lesson.array1()
