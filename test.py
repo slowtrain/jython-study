@@ -1,19 +1,24 @@
 #-*- coding: utf-8 -*-
-import study.study01
-import study.study02
-import study.study03
-import study.study04
 
+from study import study01
+from study import study02
+from study import study03
+from study import study04
+from study import study05
 
-# lesson = study.study01.Lesson()
-# lesson.hello()
+# lesson1 = study01.Lesson()
+# lesson1.hello()
 
-# lesson = study.study02.Lession()
-# lesson.loop()
+# lesson2 = study02.Lession()
+# lesson2.loop()
 
-#lesson = study.study03.Lesson()
-#lesson.input()
-#lesson.calcurate()
+# lesson3 = study03.Lesson()
+# lesson3.input()
+# lesson3.calcurate()
 
-lesson = study.study04.Lesson()
-lesson.array1()
+#lesson4 = study04.Lesson()
+#lesson4.array1()
+
+lesson5 = study05.Lesson()
+lesson5.url()
+#lesson.request()
